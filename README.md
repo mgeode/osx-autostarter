@@ -1,4 +1,4 @@
-# Bash Autostarter 4 OSx
+# Autostarter+ 4 OSx
 
 Zwar besitzt auch das OSx-Betriebssystem einen Autostarter, hier soll dieser um einen ***programmatischen Starter*** erweitert werden.
 
@@ -39,4 +39,4 @@ Die bashrc wird nur bei start selbiger benutzt. Wenn man hingegen nach der Ersta
 
 
 ### Useful
-- [Envsetter, Setup a Alias-System](https://github.com/mgeode/)
+- [EnvAlias-Installer, Setup a Alias-System](https://github.com/mgeode/envalias-installer)
