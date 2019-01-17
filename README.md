@@ -29,4 +29,14 @@ if [  "$(ifconfig |grep ${HOMELAN_ADD}|grep -v grep|awk '{print $1}')" = "inet" 
 ...
 ```
 
-Unter **Systemeinstellungen -> Benutzer&Gruppe -> Anmeldeobjekte** einfach das installierte Programm **Autostarter** hinzufügen.
+### Autostarter nach Login verankern
+Damit der Autostarter nach dem UI-Login einmalig gestartet wird, muss man diesen unter **Systemeinstellungen -> Benutzer&Gruppe -> Anmeldeobjekte** das installierte Programm **Autostarter** hinzufügen.
+
+#### Warum nicht bashrc-logik?
+Die bashrc wird nur bei start selbiger benutzt. Wenn man hingegen nach der Erstanmeldung 
+- Skripte zusätzlich starten möchte und/oder
+- programmatisch entscheiden welches Programm gestartet werden soll.
+
+
+### Useful
+- [Envsetter, Setup a Alias-System](https://github.com/mgeode/)
