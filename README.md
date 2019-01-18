@@ -2,8 +2,14 @@
 
 Zwar besitzt auch das OSx-Betriebssystem einen Autostarter, hier soll dieser um einen ***programmatischen Starter*** erweitert werden.
 
+### Installation
 
-#### Define Appgroups
+```
+	make
+```
+
+
+### Define Appgroups
 
 **/Applications/Autostarter.app/Contents/bin/apps-A.list**
 ```
@@ -17,7 +23,7 @@ Programm4
 Programm6
 ```
 
-#### Switching Appgroups
+### Switching Appgroups
 
 **/Applications/Autostarter.app/Contents/bin/autostart.sh**
 ```
