@@ -59,7 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>/Applications/Autostart.app/Contents/bin/autostart.sh</string>
+					<string>/Applications/Addautostarter.app/Contents/bin/autostart.sh</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>

@@ -11,13 +11,13 @@ Zwar besitzt auch das OSx-Betriebssystem einen Autostarter, hier soll dieser um 
 
 ### Define Appgroups
 
-**/Applications/Autostarter.app/Contents/bin/apps-A.list**
+**/Applications/Addautostarter.app/Contents/bin/apps-A.list**
 ```
 Programm2
 Programm8
 ```
 
-**/Applications/Autostarter.app/Contents/bin/apps-B.list**
+**/Applications/Addautostarter.app/Contents/bin/apps-B.list**
 ```
 Programm4
 Programm6
@@ -25,7 +25,7 @@ Programm6
 
 ### Switching Appgroups
 
-**/Applications/Autostarter.app/Contents/bin/autostart.sh**
+**/Applications/Addautostarter.app/Contents/bin/autostart.sh**
 ```
 HOMELAN_ADD=${HOMELAN_ADD:-"192.168.1"}
 
